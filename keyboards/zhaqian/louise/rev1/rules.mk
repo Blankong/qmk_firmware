@@ -1,7 +1,0 @@
-MCU_LDSCRIPT = STM32F103xB_uf2boot
-
-AUDIO_DRIVER = pwm_software
-
-OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
-
-SRC += ../rgb_control.c
