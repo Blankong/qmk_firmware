@@ -1,0 +1,12 @@
+{
+    "processor": "AIR32F103",
+    "bootloader": "uf2boot",
+    "matrix_pins": {
+        "cols": ["B6", "B5", "B4", "B3", "A15", "A3", "A4", "A5", "A6", "A7", "B0", "B1", "B13", "B14"],
+        "rows": ["A1", "A0", "B9", "B8", "B7", "A9"]
+    },
+    "ws2812": {
+        "pin": "A10",
+        "driver": "pwm"
+    }
+}
